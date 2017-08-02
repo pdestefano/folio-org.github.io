@@ -53,14 +53,14 @@ mod-acquisitions:
     directory: ramls/acquisitions
     files:
       - acquisitions
-    ramlutil: raml-util
+    ramlutil: ramls/raml-util
 
 mod-acquisitions-postgres:
   - label: null
     directory: ramls/acquisitions
     files:
       - acquisitions
-    ramlutil: raml-util
+    ramlutil: ramls/raml-util
 
 mod-circulation:
   - label: null
