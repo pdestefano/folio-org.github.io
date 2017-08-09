@@ -1,6 +1,8 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+//Import bootstrap for styling
+@import "bootstrap";
 
 // Set the variables that we need to override.
 @import "folio-base";
@@ -12,3 +14,48 @@
 
 // Provide our rules.
 @import "folio";
+
+@charset "utf-8";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-top: 60px;
+  margin-bottom: 46px;
+}
+
+.page-content {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  
+   h1 {
+	font-size: 1.9em;
+    font-weight: 100;
+    text-transform: uppercase;
+	letter-spacing: 0.01em;
+  }
+  
+   h2 {
+	font-size: 1.7em;
+    font-weight: 100;
+  }
+  
+   h3 {
+	font-size: 1.2em;
+    font-weight: 100;
+  }  
+}
+
+
+
+.footer-col-1 {
+    width: -webkit-calc(50% - (30px / 2));
+    width: calc(50% - (30px / 2));
+}
+
+:target {
+    padding-top: 50px;
+	border-left: 0px;
+}

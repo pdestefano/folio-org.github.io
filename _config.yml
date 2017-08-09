@@ -13,6 +13,13 @@ description: >
   disparate development teams.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dev.folio.org" # the base hostname & protocol for your site
+foliourl: https://www.folio.org/
+wikiurl: https://wiki.folio.org/
+discussurl: https://discuss.folio.org
+issuesurl: https://issues.folio.org
+roadmapurl: https://wiki.folio.org/display/PC/FOLIO+Roadmap
+twitterurl: https://twitter.com/folio_lsp
+blogurl: https://wiki.folio.org/pages/viewrecentblogposts.action?key=PC
 google_analytics: UA-79833310-3
 
 # Build settings
