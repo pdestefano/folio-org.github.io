@@ -22,12 +22,35 @@ html {
   min-height: 100%;
 }
 body {
-  padding-top: 60px;
+  padding-top: 87px;
   margin-bottom: 46px;
+}
+.header-container {
+  background-color: black;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/bg.jpg') no-repeat 50% 0;
+  color: #fff;
+
+  h1 {
+    color: #fff;
+  }
+  // background-attachment: fixed;
+  background-size: cover;
+  background-position: center 36%;
+  margin-top: -37px;
+}
+.navbar-container {
+  font-size: 16px;
+}
+
+.header-container-page {
+    background-color: white;
+    color: #fff;
+    background-size: cover;
+    background-position: center 36%;
+    margin-top: -58px;
 }
 
 .page-content {
-  padding-top: 10px;
   padding-bottom: 20px;
   
    h1 {
@@ -47,8 +70,6 @@ body {
     font-weight: 100;
   }  
 }
-
-
 
 .footer-col-1 {
     width: -webkit-calc(50% - (30px / 2));
