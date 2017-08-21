@@ -22,17 +22,13 @@
 			<li><a href="{{site.wikiurl}}/display/PC/Special+Interest+Groups">Partners</a></li>
           </ul>				
 				</li>
-				<li {% if page.sectionid=='community' %} class="active" {% endif %}><a href="/community/index">Community</a></li>
+				<li {% if page.sectionid=='community' %} class="active" {% endif %}><a href="/community/">Community</a></li>
                 <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{site.roadmapurl}}">Roadmap</a></li>
                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}>
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Developers<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="{{ "/index" | prepend: site.baseurl }}">dev.folio.org</a></li>
-			<li><a href="{{ "/community/contrib-code" | prepend: site.baseurl }}">Contributing</a></li>
 			<li><a href="{{ "/source-code/index" | prepend: site.baseurl }}">Code</a></li>
-			<li><a href="{{ "/doc/index" | prepend: site.baseurl }}">Developer Guides</a></li>
-			<li><a href="{{ "/doc/artifacts" | prepend: site.baseurl }}">Download</a></li>
-			<li><a href="{{ "/doc/reference" | prepend: site.baseurl }}">Reference</a></li>
             <li><a href="{{ site.issuesurl }}">Tracker</a></li>
           </ul>						
 				</li>

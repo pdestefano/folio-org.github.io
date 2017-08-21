@@ -10,12 +10,14 @@
 <div class="navbar navbar-default navbar-secondary" style="margin-bottom: 5px">
 	 <div class="container">
             <ul class="nav navbar-nav">
-				<li><a href="{{ "/foliodev/" | prepend: site.baseurl }}">Overview</a></li>
-				<li {% if page.sectionid=='docs2' %} class="active" {% endif %}><a href="{{ "/docs2/introduction/" | prepend: site.baseurl }}">Getting Started</a></li>
-				<li><a href="{{ "/docs2/introduction/" | prepend: site.baseurl }}">Development Guides</a></li>
-				<li><a href="{{ "/docs2/introduction/" | prepend: site.baseurl }}">Tutorials</a></li>
-				<li><a href="{{ "/docs2/introduction/" | prepend: site.baseurl }}">Developer Tools</a></li>
-				<li><a href="{{ "/docs2/introduction/" | prepend: site.baseurl }}">Guidelines</a></li>				
+                <li><a href="{{ "/doc/primer-develop-frontend" | prepend: site.baseurl }}">Getting Started</a></li>
+				<li><a href="{{ "/doc/" | prepend: site.baseurl }}">Development Guides</a></li>
+				<li><a href="{{ "/doc/reference" | prepend: site.baseurl }}">Reference</a></li>
+				<li><a href="{{ "/source-code/" | prepend: site.baseurl }}">Source Code</a></li>
+				<li><a href="{{ "/doc/artifacts" | prepend: site.baseurl }}">Download</a></li>
+				<li><a href="{{ "http://dev.folio.org/curriculum"}}">Tutorials</a></li>
+				<li><a href="{{ "/doc/setup" | prepend: site.baseurl }}">Developer Tools</a></li>
+				<li><a href="{{ "/community/contrib-code" | prepend: site.baseurl }}">Guidelines</a></li>				
             </ul>
 	</div>
 </div>

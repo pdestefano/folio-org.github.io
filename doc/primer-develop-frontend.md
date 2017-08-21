@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: defaultdev
 title: Primer for frontend development
 ---
 

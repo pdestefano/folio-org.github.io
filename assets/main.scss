@@ -24,6 +24,7 @@ html {
 body {
   padding-top: 87px;
   margin-bottom: 46px;
+  font-size: 14px;
 }
 .header-container {
   background-color: black;
@@ -47,11 +48,13 @@ body {
     color: #fff;
     background-size: cover;
     background-position: center 36%;
-    margin-top: -58px;
+    margin-top: -52px;
 }
 
 .page-content {
+  padding-top: 25px;
   padding-bottom: 20px;
+  padding-left: 15px;
   
    h1 {
 	font-size: 1.9em;

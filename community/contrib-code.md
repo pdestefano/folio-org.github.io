@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: defaultdev
 title: Guidelines for Contributing Code
 ---
 
@@ -26,7 +26,7 @@ title: Guidelines for Contributing Code
 ## Issue tracker
 
 The FOLIO Issue Tracker is at [issues.folio.org](https://issues.folio.org/)
-and see the usage [guidelines](http://dev.folio.org/community/guide-issues).
+and see the usage [guidelines](guide-issues).
 
 ## Git and branches
 

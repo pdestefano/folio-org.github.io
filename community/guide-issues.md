@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: defaultdev
 title: Guidelines for FOLIO issue tracker
 ---
 
