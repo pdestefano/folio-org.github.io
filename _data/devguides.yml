@@ -1,19 +1,9 @@
-- title: None
+- title: Introduction
   devguides:
-  - overview
-- title: None
-  devguides:
-  - modules
-- title: None
-  devguides:
-  - userinterface
+  - introduction
 - title: System
   devguides:
-  - runsystem
-  - automation
+  - system
 - title: Release Procedures
-  devguides:  
+  devguides:
   - release-procedures
-  - maveng
-  - gradle
-  - stripes

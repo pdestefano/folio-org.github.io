@@ -1,9 +1,3 @@
-- title: None
+- title: Reference
   reference:
-  - overview
-- title: None
-  reference: 
-  - apiindex
-- title: None
-  reference:
-  - glossary
+  - refinfo

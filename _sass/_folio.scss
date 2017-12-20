@@ -95,3 +95,20 @@ tr:target td:first-child {
 .form-control {
     margin-top: 7px;
 }
+
+@media screen and (min-width: 992px) {
+.tocify {
+   /* position: fixed; */
+}
+}
+
+@media (max-width: 767px) {
+    #toc {
+        position: relative;
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+}
+
+
+

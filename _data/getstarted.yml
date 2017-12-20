@@ -1,9 +1,3 @@
-- title: None
+- title: Getting Started
   getstarted:
-  - overview
-- title: None
-  getstarted:
-  - primer-develop-frontend
-- title: None
-  getstarted:
-  - primer-develop-backend
+  - gsinfo

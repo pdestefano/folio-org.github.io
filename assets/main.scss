@@ -4,6 +4,9 @@
 //Import bootstrap for styling
 @import "bootstrap";
 
+//Import bootstrap for styling
+@import "jquery.tocify";
+
 // Set the variables that we need to override.
 @import "folio-base";
 
@@ -148,6 +151,6 @@ a.list-group-item.active {
 }
 
 :target {
-    padding-top: 50px;
+    padding-top: 0px;
 	border-left: 0px;
 }

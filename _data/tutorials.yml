@@ -1,12 +1,3 @@
-- title: None
-  tutorials:
-  - overview
 - title: Folio Developer's Curriculum
   tutorials:
-  - foliocurriculumintro
-  - clonebuildexploreokapi
-  - initializeokapifromthecommandline
-  - enableokapiauthentication
-  - deployteststripesmodule
-  - setuptheokapiusersapp
-  - ramlmodulebuilder
+  - foliodeveloperscurr

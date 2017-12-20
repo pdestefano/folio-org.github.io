@@ -1,9 +1,3 @@
-- title: None
-  devtools:
-  - overview
 - title: Setting Up the Development Environment
   devtools: 
-  - tools
-  - configuration
-  - codingstyle
-  - troubleshooting
+  - setupdevenv

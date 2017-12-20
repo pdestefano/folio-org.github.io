@@ -5,6 +5,157 @@ heading: Community Guidelines
 permalink: /guidelines/communityguidelines/
 ---
 
+# Community Guidelines
+
+<!-- ../../okapi/doc/md2toc -l 2 -h 3 contrib-code.md -->
+This section contains guidelines for using the FOLIO community tools and contributing to the FOLIO project.
+
+## Community Tools
+
+Some of the important forums to collaborate, discuss FOLIO, interact with other participants, and find starting points for documentation.
+
+<table>
+  <thead>
+    <tr>
+      <th>Forum</th>
+      <th width="40%">Purpose</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> <a href="https://discuss.folio.org">discuss.folio.org</a> </td>
+      <td> The discussion area and mailing lists is via Discuss. </td>
+      <td>
+        <a href="/guidelines/communityguidelines/#discuss">How to</a> |
+        Join at front page
+      </td>
+    </tr>
+    <tr>
+      <td> <a href="https://wiki.folio.org">wiki.folio.org</a> </td>
+      <td>
+        Position papers, roadmaps, meeting agendas and minutes, Special Interest Group
+        (<a href="https://wiki.folio.org/display/PC/Special+Interest+Groups">SIG</a>) spaces,
+        other guidelines.
+      </td>
+      <td>
+        <a href="/guidelines/communityguidelines/#wiki">How to</a> |
+        Join at front page (same account as Issues)
+      </td>
+    </tr>
+    <tr>
+      <td> <a href="http://dev.folio.org">dev.folio.org</a> </td>
+      <td> Developer documentation. Also leads to documentation at each repository. </td>
+      <td>
+        <a href="https://github.com/folio-org/folio-org.github.io/blob/master/README.md">How to</a>
+      </td>
+    </tr>
+    <tr>
+      <td> <a href="https://issues.folio.org">issues.folio.org</a> </td>
+      <td> The issue tracking and bug tracking system.
+      </td>
+      <td>
+        <a href="/guidelines/communityguidelines/#issuetracker">How to</a> |
+        Join at front page 
+      </td>
+    </tr>
+    <tr>
+      <td> <a href="https://github.com/folio-org">github.com/folio-org</a> </td>
+      <td> The source-code repositories are via GitHub. </td>
+      <td>
+        <a href="/guidelines/communityguidelines/#github">How to</a> |
+        <a href="/source/components/">List of repos</a> |
+        <a href="/guidelines/contrib-code/">Contributing</a>
+      </td>
+    </tr>
+    <tr>
+      <td> <a href="https://folio-project.slack.com">folio-project.slack.com</a> </td>
+      <td> Real-time chat is via Slack. </td>
+      <td>
+        <a href="/guidelines/communityguidelines/#slack">How to</a> |
+        <a href="https://slack-invitation.folio.org">Join</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Community Representatives
+
+The FOLIO community consists of many significant contributors.  Among
+them are community representatives which include:
+
+- Sebastian Hammer, Index Data
+- Christopher Spalding, EBSCO
+- Michael Winkler, OLE
+
+### Engineering teams
+
+The FOLIO developer community consists of:
+
+- Index Data, which leads the technical development of the FOLIO
+  software
+- Several software engineering teams
+- Contributing developers from the community
+- Many supporting individuals whose contributions feed into and guide
+  the development process
+
+Here we list the engineering roles and contacts for the various parts of
+the project.  Team members can be contacted via the collaboration tools
+listed above.
+
+### Engineering core team
+
+The engineering core team sets strategic direction for technical
+architecture in the FOLIO software:
+
+- Sebastian Hammer (project lead)
+- Nassib Nassar (project lead - technical)
+- Jakub Skoczen (technical project manager)
+- Adam Dickmeiss
+- Vince Bareau
+- Peter Murray (community)
+
+### Subproject core teams
+
+Several components of the FOLIO software are distinct subprojects and
+have a core team of software engineers with commit-level access to the
+source code repositories.  Each subproject generally has a lead
+developer who is responsible for selecting new core team members from
+the community.
+
+- okapi: Adam Dickmeiss (lead), Heikki Levanto, Jakub Skoczen, John
+  Malconian, David Crossley
+- mod-auth, mod-users: Kurt Nordstrom (lead)
+- mod-metadata: Marc Johnson (lead), Ian Ibbotson, Jakub Skoczen
+- mod-circulation, mod-configuration: shale
+- raml-module-builder: shale, Adam Dickmeiss, Julian Ladisch
+- raml: shale, Adam Dickmeiss
+- stripes-core: Niels Erik Nielsen, Jason Skomorowski, Mike Taylor, John Coburn
+- stripes-components: John Coburn (lead)
+- stripes-connect: Jason Skomorowski, Mike Taylor, Niels Erik Nielsen
+- stripes-loader: Jason Skomorowski (lead)
+- stripes-sample-platform: Jason Skomorowski (lead)
+- okapi-stripes: Wolfram Schneider (lead)
+- ui-users: Mike Taylor, Niels Erik Nielsen, Jason Skomorowski, John Coburn, Matt Connolly, Jeremy Huff
+- ui-items: Mike Taylor
+- ui-okapi-console: Mike Taylor, Niels Erik Nielsen
+- cql2pgjson-java: Julian Ladisch (lead)
+- container-perf-tests: Adam Dickmeiss (lead), Jakub Skoczen
+- folio-sample-modules: Heikki Levanto (lead), Niels Erik Nielsen
+- folio-ansible: Wayne Schneider (lead), John Malconian
+- folio-org.github.io: David Crossley (lead)
+
+
+## Contributing to the FOLIO Project
+
+There are many ways to FOLIO development:
+
+- Contributing directly to the software development.
+- Engaging with the issue tracker.
+- Joining the conversations.
+- Participating in Special Interest Groups.
+
 Developers need to efficiently discuss various topics such as issues,
 usage quirks, new features, and documentation improvements.
 Remember that other developers, the recipients of your messages, are also busy.
@@ -62,3 +213,204 @@ We follow a variation of the Apache motto:
   use its comment-on-commit facility.
   Likewise with pull requests and Jira issue tracker.
 
+## Discuss
+
+[https://discuss.folio.org](https://discuss.folio.org)
+
+- For asking questions and recording discussions.
+
+- Use the relevant categories.
+
+- For topics that need lengthy or open-ended discussion, this is
+  definitely the place.
+
+- If in doubt about which forum to commence a discussion, then using a
+  Discuss topic is the best place.
+
+- You might be subsequently asked to explicitly add an Issue Tracker item.
+  Link in both directions.
+
+- When seeking input from the broadest reach of FOLIO participants.
+
+- To post or comment, sign up for an account via the front page.
+
+## WIKI
+
+[https://wiki.folio.org](https://wiki.folio.org)
+
+- Position papers, meeting agendas and minutes, special-interest group
+  ([SIG](https://wiki.folio.org/display/PC/Special+Interest+Groups)) spaces,
+  other guidelines.
+
+- To post or comment, sign up for an account via the front page
+  (uses the same account as issues.folio.org).
+  
+## Issue Tracker
+
+[https://issues.folio.org](https://issues.folio.org)
+
+- Specific bugs, problems, feature requests.
+- Also tasks that you know need to be done sometime later.
+- If not clear whether to add a new issue, then commence a
+  Discuss topic first, and later summarize into an Issue.
+- Describe the issue concisely in the Summary and Description fields.
+  Use Comments for further detail.
+  See below.
+- Follow up in other fora for any lengthy discussion.
+  Then summarise into further issue tracker comments.
+  Provide links in both directions.
+- To create issues or comment, sign up for an account via the front page.
+
+### Signing Up
+
+To create issues or add comments, sign up for an account via the front page of [https://issues.folio.org](https://issues.folio.org).
+(This is also used to manage accounts for wiki.folio.org)
+
+### Preparing
+
+Review the [community guidelines](/guidelines/communityguidelines) guidelines
+to be sure that adding an issue is the appropriate action.
+
+Describe the issue concisely in the _Summary_ and _Description_ fields.
+Use _Comments_ for further detail.
+The _Summary_ and _Description_ are also utilized for reports, so detail is
+better in _Comments_.
+
+Use the Search facility to ensure that an issue is not already reported.
+
+Use a local text file and your familiar editor to prepare and save the
+summary, description, and comments.  When ready then copy-and-paste.
+
+Use attachments for long log files, text listings, and images.
+Be sure to redact information that would compromise privacy.
+
+### Creating
+
+When creating the issue, select the most relevant _Project_ and the _Issue
+Type_ (see [below](#issue-types) for definitions).
+If unsure which Project, then use "FOLIO".
+Someone can change these later if necessary.
+For the "Bug" issue type, use the "Configure Fields" option to add
+the _Environment_ field.
+
+After issue creation, use the comments for further detail.
+Attachments can be added later.
+
+Someone else will later determine the _Assignee_ and the _Priority_, and will
+link between relevant issues.
+
+### Issue Types
+
+Each Project uses the following types:
+
+- **New Feature**: Some new functionality request, yet to be developed.
+- **Bug**: A defect which impairs or prevents proper function, and
+  can usually be resolved without changing the functionality of the system.
+- **Task**: Some job that needs to be done, usually not directly related to
+  product code changes.
+- **Sub-task**: We try to avoid this, and instead use other types,
+  and then Link between issues.
+- **Umbrella**: This type is used for project management.
+  Please use one of the other types.
+  
+### Priority Levels
+
+The priority level indicates the importance to the dev team.
+An Issue Priority is set by the project managers.
+
+- **P1**: highest priority item, drop everything else before this is resolved, reserved for critical bugfixes
+- **P2**: high priority level, must be included in the current development cycle
+- **P3**: normal priority level, item will be considered for inclusion in the next dev cycle
+- **P4**: low priority level, nice-to-have things that require future discussion and design
+
+Note that the priority might not match the severity felt by the issue reporter.
+That is better represented by other means (such as the number of watchers or votes)
+and by providing clear Comments about the issue and its impacts.
+
+### Comments
+
+After creating the issue with a concise _Description_, follow up with more
+detail in additional _Comments_.
+
+When other people comment and ask for clarification, then try to respond
+promptly. We all like to keep the issue resolution process moving smoothly.
+
+If comments start to turn into a lengthy discussion, then follow up in
+[other fora](/guidelines/communityguidelines/), and then summarise into further issue tracker Comments.
+Provide links in both directions.
+
+### Status
+
+We use the following workflow:
+
+- **Open**: Ready for the assignee to commence work on it.
+- **In Progress**: Being actively worked on at the moment by the assignee.
+- **Reopened**: The resolution was incorrect, or subsequent developments have caused the issue to resurface.
+- **Closed**: Finished.
+
+The Status does not preclude other people from assisting.
+Please add relevant Comments.
+
+### Linking
+
+Other people will create tracker Links between relevant issues.
+
+Using an Issue identifier within text Comments will automatically link to
+it, e.g. `FOLIO-298`.
+Note that it must be upper-case.
+
+Using such an issue identifier in git commit messages will also automatically
+link the Issue to the commits.
+
+Provide other relevant links, for example GitHub pull requests and
+Discuss topics.
+
+## GitHub
+
+[https://github.com/folio-org](https://github.com/folio-org)
+
+- As explained in
+  [Guidelines for Contributing Code](/guidelines/contrib-code/),
+  use Feature Branches for any task beyond a minor text edit.
+
+- Use a descriptive name for the branch, with an Issue tracker number
+  if relevant, e.g. "folio-293-which-forum".
+
+- In the Pull Request, describe your main changes. Also say whether
+  it is now ready to merge, or that you are seeking feedback.
+
+- To seek feedback on your work, use additional comments on your
+  Pull Request. If the specific attention of certain people is needed,
+  then @mention their names.
+
+- For specific comments on the work of other people, add comments to
+  their Pull Requests or in direct response to their Commits (see
+  [example](https://github.com/folio-org/okapi/commit/710e201053897609ceb667e0687f830f92f9d006)).
+  
+## Slack
+
+[https://folio-project.slack.com](https://folio-project.slack.com)
+(join [here](https://slack-invitation.folio.org) first).
+
+- Real-time chat and messaging.
+
+- Summarize topics out to other fora for better visibility.
+  Remember that Slack is a secondary channel: significant ideas and
+  decisions must be recorded elsewhere (Discuss, Wiki, Issues or GitHub)
+  for broader vetting.
+
+- Follow up on missed topics. This can occur when a flurry happens about
+  other topics. Also everyone is busy, and may intend to respond later.
+  So pursue topics at a later time or venue.
+
+- A place to get together to solve a particular bug,
+  or hold a brainstorming session,
+  or to efficiently address a potential mis-understanding.
+  Try to choose a time that suits people distributed around the world.
+
+- A place for heads-up type of notices.
+
+- Distinguish different Slack teams using
+  [Sidebar Themes](http://slackstyles.com/#/tag/FOLIO):
+  "[FOLIO orange](http://slackthemes.net/#/folio_orange)" and
+  "[FOLIO purple](http://slackthemes.net/#/folio_purple)".

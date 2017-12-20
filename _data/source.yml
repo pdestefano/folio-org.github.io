@@ -1,15 +1,3 @@
-- title: None
-  source:
-  - overview
-- title: None
+- title: Components
   source: 
-  - create-new-repo
-- title: None
-  source: 
-  - serverside
-- title: None 
-  source:
-  - clientside
-- title: None
-  source:
-  - otherprojects
+  - components
