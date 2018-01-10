@@ -1,4 +1,4 @@
-$base-font-family: "myriad-pro-n3", "myriad-pro", sans-serif;
+$base-font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-weight: 400;
 
 $f-color-orange: #da6a2d;
@@ -6,4 +6,7 @@ $f-color-purple: #38307f;
 $f-color-dark-grey: #515251;
 $f-color-light-grey: #737272;
 $f-color-lighter-grey: lighten($f-color-light-grey, 50%);
+$base-line-height: 1.5 !default;  // from minima
+$base-font-size:   16px !default; //from minima
 $f-link-color: #2a7ae2; // from minima
+$small-font-size:  $base-font-size * 0.875 !default; // from minima

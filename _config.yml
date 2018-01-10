@@ -25,6 +25,17 @@ plugins:
 
 exclude: [bin, Gemfile, Gemfile.lock, CONTRIBUTING.md, README.md, tmp, vendor, work]
 
+defaults:
+- scope:
+    path: _reference
+    type: reference
+  values:
+    layout: reference
+    sectionid: reference
+    
 collections:
   posts:
     permalink: /news/:year/:month/:day/:title/
+  reference:
+    permalink: /reference/:path/
+    output: true 
