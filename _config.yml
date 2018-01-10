@@ -27,6 +27,20 @@ exclude: [bin, Gemfile, Gemfile.lock, CONTRIBUTING.md, README.md, tmp, vendor, w
 
 defaults:
 - scope:
+    path: _guides
+    type: guides
+  values:
+    layout: guides
+    sectionid: guides
+    
+- scope:
+    path: _getstarted
+    type: getstarted
+  values:
+    layout: getstarted
+    sectionid: getstarted 
+    
+- scope:
     path: _reference
     type: reference
   values:
@@ -50,6 +64,12 @@ defaults:
 collections:
   posts:
     permalink: /news/:year/:month/:day/:title/
+  guides:
+    permalink: /guides/:path/
+    output: true  
+  getstarted:
+    permalink: /getstarted/:path/
+    output: true   
   source:
     permalink: /source/:path/
     output: true  

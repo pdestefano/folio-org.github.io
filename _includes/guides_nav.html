@@ -2,10 +2,10 @@
 <li>
  <ul id=submenu>
  <li><p style="padding-left: 10px; font-weight: 400; color: #38307f; font-size: 15px; text-transform: none;">Guides<p></li>
-{% for section in site.data.devguides %}
-        {% for item in section.devguides %}
-          {% assign item_url = item | prepend:"/devguides/" | append:"/" %}
-          {% assign p = site.devguides | where:"url", item_url | first %}
+{% for section in site.data.guides %}
+        {% for item in section.guides %}
+          {% assign item_url = item | prepend:"/guides/" | append:"/" %}
+          {% assign p = site.guides | where:"url", item_url | first %}
 		  {% if item_url == page.url %}
           <div id="toc">
           </div>		  
