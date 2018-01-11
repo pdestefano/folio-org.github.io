@@ -59,7 +59,28 @@ defaults:
     type: download
   values:
     layout: download
-    sectionid: download   
+    sectionid: download  
+    
+- scope:
+    path: _tools
+    type: tools
+  values:
+    layout: tools
+    sectionid: tools
+
+- scope:
+    path: _guidelines
+    type: guidelines
+  values:
+    layout: guidelines
+    sectionid: guidelines
+    
+- scope:
+    path: _tutorials
+    type: tutorials
+  values:
+    layout: tutorials
+    sectionid: tutorials 
     
 collections:
   posts:
@@ -79,3 +100,12 @@ collections:
   reference:
     permalink: /reference/:path/
     output: true 
+  tools:
+    permalink: /tools/:path/
+    output: true    
+  guidelines:
+    permalink: /guidelines/:path/
+    output: true  
+  tutorials:
+    permalink: /tutorials/:path/
+    output: true   
