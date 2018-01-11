@@ -9,8 +9,10 @@ permalink: /guides/release-procedures/
 
 This document summarises the release procedures for FOLIO projects.
 
+## Introduction
+
 There are separate notes about the
-[FOLIO version-numbering scheme](/guidelines/implementversions/).
+[FOLIO version-numbering scheme](/community/contrib-code#version-numbers).
 
 ## Maven Based Modules
 
@@ -67,11 +69,18 @@ Maven 'deploy' phase should have the following specified in the project's top-le
 Replace 'PROJECT_NAME' above with the name of the appropriate github repository.
 Commit all changes to the POM in git.
 
-
 ### Ensure that Jira issues are ready
 
 For the issues that are associated with this release, ensure that they reflect reality,
 have the relevant `Fix Version` parameter, and are closed.
+
+### Make a release branch
+
+If you do not have commit access to the master branch (and even if you do), you
+can make the release on a branch.
+```
+git checkout -b "release-X.Y.Z"
+```
 
 ### Prepare the news document
 
@@ -95,7 +104,6 @@ version numbers.
 ```
 git commit -a -m "Towards version X.Y.Z"
 ```
-
 
 ### Prepare and perform the source release
 
@@ -126,18 +134,21 @@ git commit -a -m "Towards version X.Y.Q-SNAPSHOT"
 git push
 ```
 
-
 ### Build and release artifacts
 
 An 'artifact' in this context could either be a Maven artifact released to the FOLIO
 Maven repository, a docker image released to Docker Hub, a Linux distribution package
 or some combination of artifacts depending on the project.  To release the artifacts
 relevant to your project, log into the [FOLIO Jenkins system](https://jenkins-aws.indexdata.com).
-Navigate to your project's folder and select the Jenkins job name with the '-release' suffix.
+Navigate to your "My Views > Release Jobs"
+folder and select your module's Jenkins job name with the '-release' suffix.
 For example, 'okapi-release'.   Select 'Build with Parameters' and select the release tag you
 want to release.  This will build the release artifacts and deploy them to the proper
 repositories.
 
+### Merge the release branch into master
+Go to GitHub and make a pull request for the release branch you just pushed.
+Wait for all the tests to pass and merge the pull request.
 
 ### Add release notes to GitHub
 
@@ -174,12 +185,12 @@ and edit `doc/release-procedures.md`.
 * [OKAPI-293](https://issues.folio.org/browse/OKAPI-293)
   -- Maven build fails when building from release distributions
 
-## Gradle Based Modules
+## Gradle-based modules
 
-The procedure for [Gradle](https://gradle.org/)-based modules (such as [mod-inventory](https://github.com/folio-org/mod-inventory) or [mod-circulation](https://github.com/folio-org/mod-circulation)) is very similar to [maven-based modules](/devguides/maveng/).
+The procedure for [Gradle](https://gradle.org/)-based modules (such as [mod-inventory](https://github.com/folio-org/mod-inventory) or [mod-circulation](https://github.com/folio-org/mod-circulation)) is very similar to [maven-based modules](#maven-based-modules).
 
-Follow all of the steps for a maven-based module, except [ensure POM declarations](/devguides/maveng/#ensure-pom-declarations) and replacing
-[Prepare and perform the source release](/devguides/maveng/#prepare-and-perform-the-source-release) with the steps outlined below.
+Follow all of the steps for a maven-based module, except [ensure POM declarations](#ensure-pom-declarations) and replacing
+[Prepare and perform the source release](#prepare-and-perform-the-source-release) with the steps outlined below.
 
 ### Change the release version
 
@@ -216,9 +227,9 @@ git push origin master
 git push origin v4.4.0
 ```
 
-Trigger the appropriate release job in Jenkins to publish the release artefacts, choosing the appropriate tag. In this example the release job is [mod-inventory-release](https://jenkins-aws.indexdata.com/view/Release%20jobs/job/mod-inventory-release/) and the parameter would be the 4.4.0 tag.
+Trigger the appropriate release job in Jenkins to publish the release artefacts, choosing the appropriate tag. In this example the release job is [mod-inventory-release](https://jenkins-aws.indexdata.com/job/Release_Jobs/job/mod-inventory-release/) and the parameter would be the 4.4.0 tag.
 
-## Stripes Based Modules
+## Stripes-based modules
 
 All Stripes modules (i.e. stripes-* and ui-*) follow the
 [Stripes release procedure](https://github.com/folio-org/stripes-core/blob/master/doc/release-procedure.md).
