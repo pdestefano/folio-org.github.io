@@ -102,6 +102,20 @@ tr:target td:first-child {
     font-weight: 300;
     padding-top: 16px; }
 	
+// api table label class	
+.label {
+    display: table-cell;
+    font-size: unset;
+    font-weight: bold;
+    line-height: unset;
+    color: #616161;
+    text-align: unset;
+    padding: unset;
+    white-space: unset;
+    vertical-align: unset;
+    border-radius: unset;
+}
+	
 @media screen and (min-width: 992px) {
 .tocify {
    /* position: fixed; */
