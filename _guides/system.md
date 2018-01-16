@@ -26,8 +26,8 @@ The list of module versions for each box is shown in its change-log.
 ## Automation
 
 This document describes the implementation, processes, and automated workflow for
-FOLIO projects maintained in the [folio-org GitHub](/source-code) repositories.
-The [release procedures](/doc/release-procedures) are separately summarised.
+FOLIO projects maintained in the [folio-org GitHub](/source/components/#server-side-1) repositories.
+The [release procedures](/guides/release-procedures/) are separately summarised.
 
 The build, test, release, and deployment processes are, in large part, orchestrated and
 automated by Jenkins.  A Nexus repository is used to host FOLIO Maven artifacts and

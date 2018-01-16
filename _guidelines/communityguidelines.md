@@ -30,7 +30,7 @@ Some of the important forums to collaborate, discuss FOLIO, interact with other 
       <td> <a href="https://discuss.folio.org">discuss.folio.org</a> </td>
       <td> The discussion area and mailing lists is via Discuss. </td>
       <td>
-        <a href="which-forum#discuss">How to</a> |
+        <a href="#discuss">How to</a> |
         Join at front page
       </td>
     </tr>
@@ -42,7 +42,7 @@ Some of the important forums to collaborate, discuss FOLIO, interact with other 
         other guidelines.
       </td>
       <td>
-        <a href="which-forum#wiki">How to</a> |
+        <a href="#wiki">How to</a> |
         Join at front page (same account as Issues)
       </td>
     </tr>
@@ -58,25 +58,25 @@ Some of the important forums to collaborate, discuss FOLIO, interact with other 
       <td> The issue tracking and bug tracking system.
       </td>
       <td>
-        <a href="which-forum#issue-tracker">How to</a> |
+        <a href="#issue-tracker">How to</a> |
         Join at front page |
-        <a href="guide-issues">Guidelines</a>
+        <a href="#issue-tracker">Guidelines</a>
       </td>
     </tr>
     <tr>
       <td> <a href="https://github.com/folio-org">github.com/folio-org</a> </td>
       <td> The source-code repositories are via GitHub. </td>
       <td>
-        <a href="which-forum#github">How to</a> |
-        <a href="/source-code">List of repos</a> |
-        <a href="contrib-code">Contributing</a>
+        <a href="#github">How to</a> |
+        <a href="/source/components/#server-side-1">List of repos</a> |
+        <a href="/guidelines/contrib-code/">Contributing</a>
       </td>
     </tr>
     <tr>
       <td> <a href="https://folio-project.slack.com">folio-project.slack.com</a> </td>
       <td> Real-time chat is via Slack. </td>
       <td>
-        <a href="which-forum#slack">How to</a> |
+        <a href="#slack">How to</a> |
         <a href="https://slack-invitation.folio.org">Join</a>
       </td>
     </tr>
@@ -84,7 +84,7 @@ Some of the important forums to collaborate, discuss FOLIO, interact with other 
       <td> </td>
       <td> Other secondary communication channels.</td>
       <td>
-        <a href="which-forum#secondary">How to</a>
+        <a href="#secondary">How to</a>
       </td>
     </tr>
   </tbody>
@@ -159,7 +159,7 @@ the community.
 
 ## Contributing to the FOLIO Project
 
-There are many ways to [contribute](/doc/#community)
+There are many ways to [contribute](#community-guidelines)
 to FOLIO development, for example:
 
 - Contributing directly to the software development.
@@ -177,7 +177,7 @@ We each need to pause and consider the best forum.
 There are no rules, but these guidelines can assist.
 
 As explained in the
-[collaboration tools](/community/#collaboration-tools) section,
+[collaboration tools](#community-tools) section,
 we have four primary forums:
 [Discuss](#discuss) (messaging forum),
 [Wiki](#wiki) (documents),
@@ -224,17 +224,17 @@ We follow a variation of the Apache motto:
   use its comment-on-commit facility.
   Likewise with pull requests and Jira issue tracker.
   
-- [Guidelines for Contributing Code](contrib-code):
+- [Guidelines for Contributing Code](/guidelines/contrib-code):
   GitHub Flow, feature branches, pull requests, version numbers, coding style,
   tests, etc.
 
-- [Which forum](which-forum) to use for communication:
+- [Which forum](#community-tools) to use for communication:
   Issue tracker, Slack chat, Discuss discussion, GitHub pull requests.
   Some guidelines about when to use each, and some usage tips.
 
-- [Guidelines for FOLIO issue tracker](guide-issues).
+- [Guidelines for FOLIO issue tracker](#issue-tracker).
 
-- Other [guides](/doc/#guides) and best practices.  
+- Other [guides](/guides/introduction/) and best practices.  
 
 ## Discuss
 
@@ -281,7 +281,7 @@ We follow a variation of the Apache motto:
 
 - Describe the issue concisely in the Summary and Description fields.
   Use Comments for further detail.
-  See [Guidelines for FOLIO issue tracker](/community/guide-issues) for notes about what to report and how to do so.
+  See [Guidelines for FOLIO issue tracker](/guidelines/communityguidelines/#issue-tracker) for notes about what to report and how to do so.
 
 - Follow up in other forums for any lengthy discussion.
   Then summarise into further issue tracker comments.
@@ -309,7 +309,7 @@ Please assist that by reporting when a particular message is not fully relevant 
 
 ### Preparing
 
-Review the "[which forum](/community/which-forum#issue-tracker)" guidelines
+Review the "[which forum](#community-tools)" guidelines
 to be sure that adding an issue is the appropriate action.
 
 Describe the issue concisely in the _Summary_ and _Description_ fields.
@@ -335,7 +335,7 @@ Be sure to redact information that would compromise privacy.
 
 When creating the issue, select the most relevant _Project_ and the _Issue
 Type_ (see [below](#issue-types) for definitions).
-Each individual [source code](/source-code) repository's README document has a link to its particular issue tracker Project.
+Each individual [source code](/source/components) repository's README document has a link to its particular issue tracker Project.
 If unsure which Project, then use "FOLIO".
 Someone can change these later if necessary.
 
@@ -343,7 +343,7 @@ For the "Bug" issue type, use the "Configure Fields" option to add
 the _Environment_ field.
 
 After issue creation, use
-[follow-up _Comments_](#continue) for further detail.
+[follow-up _Comments_](#comments) for further detail.
 Attachments can be added later.
 
 Someone else will later determine the _Assignee_ and the _Priority_, and will
@@ -386,7 +386,7 @@ When other people comment and ask for clarification, then try to respond
 promptly. We all like to keep the issue resolution process moving smoothly.
 
 If comments start to turn into a lengthy discussion, then follow up in
-[other forums](/community/which-forum), and then summarise into further issue tracker Comments.
+[other forums](#community-tools), and then summarise into further issue tracker Comments.
 Provide links in both directions.
 
 ### Status
@@ -427,13 +427,13 @@ Create your own filters. Use one as a base, then twiddle and Save As.
 
 [https://github.com/folio-org](https://github.com/folio-org)
 
-- See the lists of [all repositories](/source-code) with sections for
-[server-side](/source-code/#server-side) and
-[client-side](/source-code/#client-side) and
-[other](/source-code/#other-projects) projects.
+- See the lists of [all repositories](/source/components) with sections for
+[server-side](/source/components/#server-side-1) and
+[client-side](/source/components/#client-side-1) and
+[other](/source/components/#other-projects) projects.
 
 - As explained in
-  [Guidelines for Contributing Code](/community/contrib-code),
+  [Guidelines for Contributing Code](/guidelines/contrib-code),
   use Feature Branches for any task beyond a minor text edit.
 
 - Use a descriptive name for the branch, with an Issue tracker number

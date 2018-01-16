@@ -19,7 +19,7 @@ See the [Contributor License Agreement](#contributor-license-agreement) section 
 ## Issue tracker
 
 The FOLIO Issue Tracker is at [issues.folio.org](https://issues.folio.org/)
-and see the usage [guidelines](/community/guide-issues)
+and see the usage [guidelines](/guidelines/communityguidelines/#issue-tracker)
 which encourage reports of various types of issue and explain how to.
 
 ## Git and Branching
@@ -121,7 +121,7 @@ Alternatively leave it for someone to pick up.
 
 The FOLIO Project uses the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) for its code and requires developers to acknowledge their contributions to the project using this license.  The contents of the Contributor License Agreement (CLA) are stored in a Gist on GitHub:
 
-See [accepting the contributor license agreement](/community/cla-process) for more details.
+See [accepting the contributor license agreement](/guidelines/cla-process) for more details.
 
 ## Merging Pull Requests
 
@@ -160,7 +160,7 @@ When done, you probably want to delete the local branch from your own machine
 	
 ## Automation
 
-The FOLIO [build, test, and deployment infrastructure](/doc/automation)
+The FOLIO [build, test, and deployment infrastructure](/guides/system/#automation)
 is described separately.
 	
 ## Releasing
@@ -174,7 +174,7 @@ be something like we are doing for other software:
 - Tag a version
 - Package and release it
 
-Refer to the specific [Release procedures](/doc/release-procedures).
+Refer to the specific [Release procedures](/guides/release-procedures/).
 
 Later, if there are bugs in the released version, work can continue on the
 version branch, and we can release a new minor version from the branch. Some

@@ -22,7 +22,7 @@ For JavaScript code we follow [ESLint](https://eslint.org), with some exceptions
 ## Code analysis and linting
 
 All code repositories have linter and code-style analysis facilities implemented as part of their continuous integration build process.
-The process is [explained](/doc/code-analysis), along with usage notes and configuration for running those tools locally.
+The process is explained, along with usage notes and configuration for running those tools locally.
 
 All code repositories have linter and code-style analysis facilities implemented as part of their continuous integration. The pull requests will run the relevant static code analysis tools.
 
@@ -84,14 +84,14 @@ For XML and JSON and RAML files, the same: two-space indent and no tabs.
 Some projects do provide a `.editorconfig` file.
 Remember to set your IDE and editors to remove trailing spaces on saving files,
 since those produce unnecessary diffs in Git.
-Refer to coding style [configuration](/doc/setup#coding-style) assistance.
+Refer to coding style [configuration](#style-guidelines-and-configuration) assistance.
 
 ## No license header
 
 We do not use a license header in the top of each source code file.
 Refer to the README and LICENSE file at the top of each repository.
-See further [license](#license) information.
-See [configuration](/doc/setup#no-license-header) assistance for IDEs.
+See further [license](/guidelines/cla-process) information.
+See [configuration](#no-license-header) assistance for IDEs.
 
 ## Testing
 
@@ -114,7 +114,7 @@ And update the documentation too, of course.
 
 For Okapi, we keep the API specs in RAML files under `okapi-core/src/main/raml/`.
 
-For [server-side modules](/source-code/#server-side),
+For [server-side modules](/source/components/#server-side-1),
 the [raml](https://github.com/folio-org/raml)
 repository is the master location for the traits and resource
 types, while each module is the master for its own schemas, examples,

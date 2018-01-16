@@ -10,7 +10,7 @@ permalink: /guides/introduction/
 Documentation for the various components of FOLIO is in continuous
 development. Since the system is composed of many separate components,
 each component is documented individually. The best places to start are
-the [FOLIO Developer's Curriculum](http://dev.folio.org/curriculum), which
+the [FOLIO Developer's Curriculum](/tutorials/foliodeveloperscurr/), which
 is a series of self-paced or instructor-guided lessons, and the early chapters
 of the [Okapi Guide and Reference](https://github.com/folio-org/okapi/blob/master/doc/guide.md),
 which describe the system as a whole and explain how the parts fit
@@ -20,7 +20,7 @@ In the context of those early chapters, you may then wish to go on to:
 
 ## Community and Contribution
 
-The [community section](/community/) explains how to be involved,
+The [community section](/guidelines/communityguidelines/) explains how to be involved,
 provides the contribution guidelines, lists the various collaboration tools
 and has some recommendations about when to use each.
 
@@ -42,7 +42,7 @@ detail about the Okapi API Gateway that controls a FOLIO system.
 - [Okapi Guide and Reference](https://github.com/folio-org/okapi/blob/master/doc/guide.md).
 - [FOLIO-Sample-Modules guide](https://github.com/folio-org/folio-sample-modules/blob/master/README.md).
 - [RAML Module Builder](https://github.com/folio-org/raml-module-builder) (RMB) framework.
-- Each [server-side](/source-code/#server-side) and [client-side](/source-code/#client-side)
+- Each [server-side](/source/components/) and [client-side](/source/components/)
 module's own documentation.
 - [Stripes Core README](https://github.com/folio-org/stripes-core/blob/master/README.md)
 guides to all front-end documentation.
@@ -62,7 +62,7 @@ and some sample module code.
 to the specific documentation for each of those modules.
 
 With that background understanding, see the documentation for each
-[server-side](/source-code/#server-side)
+[server-side](/source/components/)
 module, especially RAML Module Builder (RMB).
 
 ## Client Side Modules
@@ -72,7 +72,7 @@ The FOLIO user-interface toolkit is called Stripes. It is described in the
 which leads to the related documentation.
 
 With that background understanding, see the documentation for each
-[client-side](/source-code/#client-side)
+[client-side](/source/components/)
 module, especially the "ui-users".
 
 The

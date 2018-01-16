@@ -94,8 +94,14 @@ tr:target td:first-child {
 
 .form-control {
     margin-top: 7px;
+	width: 120px;
 }
 
+.page-content h4 {
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-top: 16px; }
+	
 @media screen and (min-width: 992px) {
 .tocify {
    /* position: fixed; */
